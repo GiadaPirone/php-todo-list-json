@@ -16,7 +16,8 @@
         <div class="container my-3">
             <div class="row">
                 <div class="col-12 rounded-3 bg-warning text-black p-3">
-                    <h1 class="border-bottom"> Cose da fare per questa estate: </h1>
+                    <h1 class="border-bottom"> Cose da fare per questa estate:
+                         </h1>
                     <ul class="list-group">
                         <li v-for="elemento in arrayLista" class="list-group-item">
                             {{elemento.stringa}}
